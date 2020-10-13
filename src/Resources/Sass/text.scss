@@ -1,0 +1,23 @@
+@import 'varriables';
+
+article.text {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    @include rotate(-90deg);
+
+    h1 {
+        @include texts(120px, 900, uppercase);
+        letter-spacing: -10px;
+    }
+    h3 {
+        @include texts(40px, 600, uppercase);
+        line-height: 1;
+    }
+    p {
+        width: 200px;
+        font-size: 12px;
+        margin-top: 30px;
+        font-weight: 500;
+    }
+}

@@ -1,0 +1,29 @@
+article.text {
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+article.text h1 {
+  text-transform: uppercase;
+  font-size: 120px;
+  font-weight: 900;
+  letter-spacing: -10px;
+}
+
+article.text h3 {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+article.text p {
+  width: 200px;
+  font-size: 12px;
+  margin-top: 30px;
+  font-weight: 500;
+}
+/*# sourceMappingURL=text.css.map */
