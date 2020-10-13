@@ -1,0 +1,18 @@
+@import 'varriables';
+
+.sponsor {
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+    text-align: center;
+
+    img {
+        width: 200px;
+        @include rotate(-90deg);
+    }
+    p {
+        @include texts(12px, 900, uppercase);
+        @include rotate(180deg);
+        margin-top: 20px;
+    }
+}

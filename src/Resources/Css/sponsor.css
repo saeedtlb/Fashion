@@ -1,0 +1,22 @@
+.sponsor {
+  position: absolute;
+  right: 100px;
+  bottom: 100px;
+  text-align: center;
+}
+
+.sponsor img {
+  width: 200px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.sponsor p {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 900;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  margin-top: 20px;
+}
+/*# sourceMappingURL=sponsor.css.map */

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,QAAQ,CAAC;EACL,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,UAAU,EAAE,MAAM;CAWrB;;AAfD,AAMI,QANI,CAMJ,GAAG,CAAC;EACA,KAAK,EAAE,KAAK;ECAhB,SAAS,EAAE,cAAiB;CDE3B;;AATL,AAUI,QAVI,CAUJ,CAAC,CAAC;ECXF,cAAc,EDYgB,SAAS;ECVnC,SAAI,EDUW,IAAI;ECTnB,WAAM,EDSe,GAAG;ECJ5B,SAAS,EAAE,cAAiB;EDMxB,UAAU,EAAE,IAAI;CACnB",
+    "sources": [
+        "../Sass/sponsor.scss",
+        "../Sass/_varriables.scss"
+    ],
+    "names": [],
+    "file": "sponsor.css"
+}
