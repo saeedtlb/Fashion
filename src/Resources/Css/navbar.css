@@ -1,0 +1,37 @@
+nav.navbar {
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav.navbar div {
+  padding: 0 30px;
+  font-size: 20px;
+}
+
+nav.navbar .hamburger {
+  width: 150px;
+  margin-right: auto;
+}
+
+nav.navbar .hamburger label {
+  width: 100%;
+}
+
+nav.navbar__lang {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+nav.navbar__search img {
+  width: 32px;
+}
+/*# sourceMappingURL=navbar.css.map */
