@@ -1,0 +1,11 @@
+@mixin texts($size, $weight, $transform) {
+    text-transform: $transform;
+    font: {
+        size: $size;
+        weight: $weight;
+    }
+}
+
+@mixin rotate($rotate) {
+    transform: rotate(($rotate));
+}
