@@ -9,6 +9,24 @@ article.text {
     h1 {
         @include texts(120px, 900, uppercase);
         letter-spacing: -10px;
+
+        position: relative;
+        overflow: hidden;
+        height: 150px;
+        width: 600px;
+
+        .hidetext {
+            position: absolute;
+        }
+    }
+    h2 {
+        @include texts(150px, 600, uppercase);
+        position: absolute;
+        top: 40px;
+        left: -80px;
+        color: #e6de74;
+        z-index: -1;
+        letter-spacing: 8px;
     }
     h3 {
         @include texts(40px, 600, uppercase);
