@@ -1,5 +1,7 @@
 import React from 'react';
 
+import '../Resources/Css/sponsor.css';
+
 const Sponsor = () => {
     return (
         <div className='sponsor'>
