@@ -1,0 +1,57 @@
+input {
+    display: none;
+}
+circle {
+    transform: scale(0);
+    fill: gold;
+    transition: all 0.65s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+label {
+    display: inline-block;
+    cursor: pointer;
+}
+
+path {
+    fill: none;
+    stroke: #000;
+    stroke-width: 4;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 24 128;
+    stroke-dashoffset: -38;
+    transition: all 0.8s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+label:hover circle {
+    transform: scale(1);
+}
+
+.hamburger input:checked + svg {
+    .line--1,
+    .line--3 {
+        stroke-dasharray: 22 126;
+    }
+    .line--2 {
+        stroke-dasharray: 0 128;
+    }
+}
+
+.hamburger {
+    .line--1,
+    .line--3 {
+        stroke-dasharray: 24 126;
+    }
+    .line--2 {
+        stroke-dasharray: 24 70;
+    }
+    input:checked + svg {
+        .line--1,
+        .line--3 {
+            stroke-dashoffset: -94;
+        }
+        .line--2 {
+            stroke-dashoffset: -50;
+        }
+    }
+}
