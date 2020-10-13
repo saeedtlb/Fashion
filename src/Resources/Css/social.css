@@ -1,0 +1,16 @@
+.social_media ul {
+  position: absolute;
+  bottom: 250px;
+  left: -140px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.social_media ul li {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  display: inline-block;
+  padding: 0 30px;
+}
+/*# sourceMappingURL=social.css.map */
