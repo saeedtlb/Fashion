@@ -10,14 +10,8 @@ article.text {
         @include texts(120px, 900, uppercase);
         letter-spacing: -10px;
 
-        position: relative;
-        overflow: hidden;
-        height: 150px;
+        @include textToAnimate(150px);
         width: 600px;
-
-        .hidetext {
-            position: absolute;
-        }
     }
     h2 {
         @include texts(150px, 600, uppercase);
@@ -30,6 +24,7 @@ article.text {
     }
     h3 {
         @include texts(40px, 600, uppercase);
+        @include textToAnimate(80px);
         line-height: 1;
     }
     p {
@@ -37,5 +32,11 @@ article.text {
         font-size: 12px;
         margin-top: 30px;
         font-weight: 500;
+
+        @include textToAnimate(110px);
     }
+}
+
+.hidetext {
+    position: absolute;
 }

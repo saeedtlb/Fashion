@@ -11,14 +11,10 @@ article.text h1 {
   font-size: 120px;
   font-weight: 900;
   letter-spacing: -10px;
+  height: 150px;
   position: relative;
   overflow: hidden;
-  height: 150px;
   width: 600px;
-}
-
-article.text h1 .hidetext {
-  position: absolute;
 }
 
 article.text h2 {
@@ -37,6 +33,9 @@ article.text h3 {
   text-transform: uppercase;
   font-size: 40px;
   font-weight: 600;
+  height: 80px;
+  position: relative;
+  overflow: hidden;
   line-height: 1;
 }
 
@@ -45,5 +44,12 @@ article.text p {
   font-size: 12px;
   margin-top: 30px;
   font-weight: 500;
+  height: 110px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hidetext {
+  position: absolute;
 }
 /*# sourceMappingURL=text.css.map */
