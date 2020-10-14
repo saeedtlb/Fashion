@@ -1,4 +1,4 @@
-nav.navbar {
+.navbar {
   height: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11,27 +11,27 @@ nav.navbar {
           align-items: center;
 }
 
-nav.navbar div {
+.navbar div {
   padding: 0 30px;
   font-size: 20px;
 }
 
-nav.navbar .hamburger {
+.navbar .hamburger {
   width: 150px;
   margin-right: auto;
 }
 
-nav.navbar .hamburger label {
+.navbar .hamburger label {
   width: 100%;
 }
 
-nav.navbar__lang {
+.navbar__lang {
   text-transform: uppercase;
   font-size: 10px;
   font-weight: 700;
 }
 
-nav.navbar__search img {
+.navbar__search img {
   width: 32px;
 }
 /*# sourceMappingURL=navbar.css.map */
