@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,QAAQ,CAAC;EACL,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,GAAG,EAAE,CAAC;EACN,OAAO,EAAE,EAAE;CAad;;AAlBD,AAOI,QAPI,AAOH,YAAY,CAAC;EACV,UAAU,ECVV,OAAO;CDWV;;AATL,AAUI,QAVI,AAUH,UAAW,CAAA,CAAC,EAAE;EACX,UAAU,ECbV,OAAO;EDcP,IAAI,EAAE,KAAK;CACd;;AAbL,AAcI,QAdI,AAcH,UAAW,CAAA,CAAC,EAAE;EACX,UAAU,ECjBV,OAAO;EDkBP,IAAI,EAAE,KAAK;CACd",
+    "sources": [
+        "../Sass/overlay.scss",
+        "../Sass/_varriables.scss"
+    ],
+    "names": [],
+    "file": "overlay.css"
+}
