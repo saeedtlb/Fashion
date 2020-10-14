@@ -8,14 +8,12 @@ import Sponsor from './Sponsor';
 import Text from './Text';
 import Distortion from './Distortion';
 import Overlay from './Overlay';
-import Menu from './Menu';
 
 const App = () => {
     return (
         <div className='App'>
             <Overlay />
             <Navbar />
-            <Menu />
             <Social />
             <Text />
             <Sponsor />
