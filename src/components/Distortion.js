@@ -25,8 +25,7 @@ const Distortion = () => {
             image1: '/images/01.png',
             image2: '/images/02.png',
             displacementImage: '/images/diss.png',
-            // imagesRatio: 380 / 300,
-            imagesRatio: 720 / 700,
+            imagesRatio: 700 / 600,
         });
     }, []);
 
