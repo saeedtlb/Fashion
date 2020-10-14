@@ -3,7 +3,6 @@ input {
 }
 circle {
     transform: scale(0);
-    fill: gold;
     transition: all 0.65s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
@@ -53,5 +52,19 @@ label:hover circle {
         .line--2 {
             stroke-dashoffset: -50;
         }
+    }
+}
+
+input:checked + svg {
+    transform: rotate(0);
+    animation: closeBtn 0.25s alternate infinite ease;
+}
+
+@keyframes closeBtn {
+    from {
+        transform: scale(1.3) rotate(-5deg);
+    }
+    to {
+        transform: scale(1.5) rotate(5deg);
     }
 }
