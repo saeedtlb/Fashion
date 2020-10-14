@@ -12,6 +12,8 @@
     .hamburger {
         width: 150px;
         margin-right: auto;
+        position: relative;
+        z-index: 20;
 
         label {
             width: 100%;

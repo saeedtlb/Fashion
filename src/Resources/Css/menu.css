@@ -1,6 +1,23 @@
 .menu {
+  position: absolute;
+  top: 0;
+  z-index: 10;
   width: 100%;
   height: 100%;
   background-color: #efde74;
+}
+
+.menu ul {
+  position: absolute;
+  top: 10%;
+  left: 3%;
+}
+
+.menu ul li {
+  text-transform: capitalize;
+  font-size: 120px;
+  font-weight: 900;
+  letter-spacing: 12px;
+  padding-bottom: 20px;
 }
 /*# sourceMappingURL=menu.css.map */
