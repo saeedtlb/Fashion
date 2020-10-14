@@ -1,22 +1,40 @@
 @import 'varriables';
 
-.menu {
-    position: absolute;
-    top: 0;
-    z-index: 10;
-    width: 100%;
-    height: 100%;
-    background-color: $sunny;
+.menu_wrapper {
+    height: 100vh;
 
-    ul {
+    .menu {
         position: absolute;
-        top: 10%;
-        left: 3%;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: $sunny;
+        z-index: 1;
+        left: -100%;
 
-        li {
-            @include texts(120px, 900, capitalize);
-            letter-spacing: 12px;
-            padding-bottom: 20px;
+        ul {
+            position: absolute;
+            top: 10%;
+            left: 3%;
+
+            li {
+                @include texts(120px, 900, capitalize);
+                letter-spacing: 12px;
+                padding-bottom: 20px;
+                transform: rotate(360deg) scale(10);
+                opacity: 0;
+                display: none;
+            }
         }
+    }
+
+    .below {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 2%;
+        background-color: #000;
+        left: -100%;
+        z-index: 1;
     }
 }
