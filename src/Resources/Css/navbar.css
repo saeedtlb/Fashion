@@ -19,6 +19,8 @@
 .navbar .hamburger {
   width: 150px;
   margin-right: auto;
+  position: relative;
+  z-index: 20;
 }
 
 .navbar .hamburger label {
