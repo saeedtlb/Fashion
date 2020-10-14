@@ -2,9 +2,11 @@ import React from 'react';
 
 import '../Resources/Css/hamburger.css';
 
-const Hamburger = () => {
+import { addToRef } from './misc';
+
+const Hamburger = ({ navbar }) => {
     return (
-        <div className='hamburger'>
+        <div className='hamburger' ref={el => addToRef(el, navbar)}>
             <label>
                 <input type='checkbox' />
                 <svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'>

@@ -2,34 +2,54 @@ import React, { useEffect, useRef } from 'react';
 
 import '../Resources/Css/text.css';
 
-import { Expo, TweenMax } from 'gsap';
+import { animationFrom } from '../utils/misc';
 
 const Text = () => {
-    const brand_ref = useRef(null);
+    const texts_ref = useRef([]);
+    const subHeader_ref = useRef(null);
 
     useEffect(() => {
-        TweenMax.from(brand_ref.current, 1.5, {
-            delay: 0.7,
-            y: '100%',
-            ease: Expo.easeInOut,
+        texts_ref.current.forEach((el, i) => {
+            animationFrom(
+                el,
+                {
+                    y: '100%',
+                },
+                `0.${i + 2}`
+            );
         });
+
+        animationFrom(
+            subHeader_ref.current,
+            {
+                autoAlpha: 0,
+                x: -10000,
+            },
+            0.5
+        );
     }, []);
+
+    const addToRef = el => {
+        if (el && !texts_ref.current.includes(el)) {
+            texts_ref.current.push(el);
+        }
+    };
 
     return (
         <article className='text'>
             <h1>
-                <span className='hidetext' ref={brand_ref}>
+                <span className='hidetext' ref={addToRef}>
                     toni&amp;guy
                 </span>
             </h1>
-            <h2>duality</h2>
+            <h2 ref={subHeader_ref}>duality</h2>
             <h3>
-                <span className='hidetext'>
+                <span className='hidetext' ref={addToRef}>
                     collection 2020 <br /> duality
                 </span>
             </h3>
             <p>
-                <span className='hidetext'>
+                <span className='hidetext' ref={addToRef}>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Enim molestiae vitae nulla nemo unde, dolor dignissimos
                     deserunt impedit optio ullam neque. Perspiciatis, repellat.
