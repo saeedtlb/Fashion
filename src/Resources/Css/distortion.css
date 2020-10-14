@@ -1,7 +1,7 @@
 .distortion {
-  width: 700px;
-  height: 720px;
-  position: absolute;
+  width: 600px;
+  height: 700px;
+  position: fixed;
   right: 400px;
   bottom: 0;
 }

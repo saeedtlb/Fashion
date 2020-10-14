@@ -1,7 +1,10 @@
-.social_media ul {
-  position: absolute;
+.social_media {
+  position: fixed;
   bottom: 250px;
   left: -140px;
+}
+
+.social_media ul {
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
 }

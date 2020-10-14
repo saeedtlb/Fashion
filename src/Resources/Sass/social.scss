@@ -1,8 +1,9 @@
 .social_media {
+    position: fixed;
+    bottom: 250px;
+    left: -140px;
+
     ul {
-        position: absolute;
-        bottom: 250px;
-        left: -140px;
         transform: rotate(-90deg);
 
         li {
