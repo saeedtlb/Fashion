@@ -1,7 +1,6 @@
 # Description
-This is just a landing page of fashion site with animation(use gsap and hover-effect js)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is just a landing page of fashion site with animation(use gsap and hover-effect js)
 
 ## Available Scripts
 
